@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amruta-deshpande20/textUtils-React/static/css/main.dc4d6ff2.css",
+    "main.js": "/amruta-deshpande20/textUtils-React/static/js/main.3c891243.js",
+    "static/js/453.aa6605d8.chunk.js": "/amruta-deshpande20/textUtils-React/static/js/453.aa6605d8.chunk.js",
+    "index.html": "/amruta-deshpande20/textUtils-React/index.html",
+    "main.dc4d6ff2.css.map": "/amruta-deshpande20/textUtils-React/static/css/main.dc4d6ff2.css.map",
+    "main.3c891243.js.map": "/amruta-deshpande20/textUtils-React/static/js/main.3c891243.js.map",
+    "453.aa6605d8.chunk.js.map": "/amruta-deshpande20/textUtils-React/static/js/453.aa6605d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.3c891243.js"
+  ]
+}
