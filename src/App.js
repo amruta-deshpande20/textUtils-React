@@ -1,11 +1,11 @@
 import "./App.css";
-// import About from "./components/About";
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import TextArea from "./components/TextArea";
 import Alert from "./components/Alert";
 import React, { useState } from "react";
 
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -46,8 +46,7 @@ function App() {
   // };
 
   return (
-    <>
-      {/* // <Router> */}
+    <Router>
       <Navbar
         title="Textutils"
         about="about us"
@@ -59,22 +58,22 @@ function App() {
       <Alert alert={alert} />
 
       <div className="container my-3">
-        {/* { <Routes> */}
-        {/* <Route path="/about" element={<About />} /> */}
-        {/* <Route
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route
             path="/"
-            element={ */}
-        <TextArea
-          showAlert={showAlert}
-          heading="Enter your text to analyze"
-          mode={mode}
-        />
-        {/* }
-          /> */}
-        {/* </Routes> } */}
+            element={
+              <TextArea
+                showAlert={showAlert}
+                heading=" Try TextUtils - Word Counter |
+      Character counter"
+                mode={mode}
+              />
+            }
+          />
+        </Routes>
       </div>
-      {/* // </Router> */}
-    </>
+    </Router>
   );
 }
 
